@@ -108,13 +108,13 @@ CREATE TABLE `project_id.dataset_id.employee_data` (
 );
 
 ----------loading to BQ from GCS------
-bq load \
---source_format=CSV \
---skip_leading_rows=1 \
---allow_quoted_newlines \
-project_id.dataset_id.employee_data \
-gs://your-bucket-name/employee_data.csv \
-emp_id:STRING,employee_name:STRING,employee_mail_id:STRING,employee_skill_set:STRING,employee_manager_name:STRING,employee_BU:STRING,employee_platform_in_BU:STRING
+LOAD DATA OVERWRITE `new-joiner-chatbot.employee_tech_stack.employee_data`
+FROM FILES (
+  format = 'CSV',
+  uris = ['gs://new-joiner-docs/employee_data_tech_stack_information.csv'],
+  skip_leading_rows = 1,
+  allow_quoted_newlines = TRUE
+);
 ```
 
 ### 3.3 Configure Dialogflow CX
