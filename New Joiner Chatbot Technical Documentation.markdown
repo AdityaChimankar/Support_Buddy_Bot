@@ -108,7 +108,15 @@ CREATE TABLE `new-joiner-chatbot.employee_tech_stack.employee_data` (
 );
 
 ----------loading to BQ from GCS------
-LOAD DATA OVERWRITE `new-joiner-chatbot.employee_tech_stack.employee_data`
+LOAD DATA OVERWRITE `new-joiner-chatbot.employee_tech_stack.employee_data` (
+  emp_id STRING,
+  employee_name STRING,
+  employee_mail_id STRING,
+  employee_skill_set STRING,
+  employee_manager_name STRING,
+  employee_BU STRING,
+  employee_platform_in_BU STRING
+)
 FROM FILES (
   format = 'CSV',
   uris = ['gs://new-joiner-docs/employee_data_tech_stack_information.csv'],
