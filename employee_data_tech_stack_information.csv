@@ -1,0 +1,101 @@
+emp_id,employee_name,employee_mail_id,employee_skill_set,employee_manager_name,employee_BU,employee_platform_in_BU
+E001,John Smith,john.smith@itcompany.com,"Python, Java, AWS",Alice Johnson,Cloud Services,AWS Platform
+E002,Emma Wilson,emma.wilson@itcompany.com,"JavaScript, React, Node.js",Bob Brown,Web Development,Frontend Platform
+E003,Michael Chen,michael.chen@itcompany.com,"C#, .NET, Azure",Clara Davis,Enterprise Solutions,Azure Platform
+E004,Sophia Patel,sophia.patel@itcompany.com,"Java, Spring, MySQL",David Lee,Backend Services,Java Platform
+E005,James Brown,james.brown@itcompany.com,"Python, Django, PostgreSQL",Emma White,Web Development,Backend Platform
+E006,Olivia Taylor,olivia.taylor@itcompany.com,"AWS, Docker, Kubernetes",Frank Wilson,Cloud Services,Container Platform
+E007,William Lee,william.lee@itcompany.com,"Angular, TypeScript, JavaScript",Grace Kim,Web Development,Frontend Platform
+E008,Ava Gupta,ava.gupta@itcompany.com,"SQL, Oracle, Data Analysis",Henry Adams,Data Services,Database Platform
+E009,Liam Martinez,liam.martinez@itcompany.com,"C++, Linux, Embedded Systems",Isabella Clark,Embedded Systems,IoT Platform
+E010,Emily Davis,emily.davis@itcompany.com,"Python, Machine Learning, TensorFlow",Jack Turner,AI Services,ML Platform
+E011,Alexander Kim,alexander.kim@itcompany.com,"Java, Hibernate, AWS",Kelly Green,Cloud Services,AWS Platform
+E012,Mia Johnson,mia.johnson@itcompany.com,"React, Redux, JavaScript",Liam Scott,Web Development,Frontend Platform
+E013,Daniel Gupta,daniel.gupta@itcompany.com,".NET, Azure, SQL Server",Mia Lopez,Enterprise Solutions,Azure Platform
+E014,Charlotte Lee,charlotte.lee@itcompany.com,"Python, Flask, MongoDB",Noah Harris,Backend Services,Python Platform
+E015,Ethan Brown,ethan.brown@itcompany.com,"AWS, Terraform, Ansible",Olivia King,Cloud Services,Infrastructure Platform
+E016,Sofia Clark,sofia.clark@itcompany.com,"JavaScript, Vue.js, Node.js",Peter Young,Web Development,Frontend Platform
+E017,Jacob Wilson,jacob.wilson@itcompany.com,"C#, ASP.NET, Azure",Quinn Patel,Enterprise Solutions,Azure Platform
+E018,Amelia Adams,amelia.adams@itcompany.com,"Java, Spring Boot, PostgreSQL",Rachel Moore,Backend Services,Java Platform
+E019,Lucas Taylor,lucas.taylor@itcompany.com,"Python, Pandas, Data Visualization",Sophia Walker,Data Services,Analytics Platform
+E020,Harper Davis,harper.davis@itcompany.com,"AWS, Lambda, DynamoDB",Thomas Allen,Cloud Services,Serverless Platform
+E021,Mason Kim,mason.kim@itcompany.com,"React, TypeScript, GraphQL",Uma Carter,Web Development,Frontend Platform
+E022,Evelyn Patel,evelyn.patel@itcompany.com,"SQL, Snowflake, ETL",Victor Brown,Data Services,Database Platform
+E023,Logan Lee,logan.lee@itcompany.com,"C++, RTOS, Embedded Linux",Wendy Davis,Embedded Systems,IoT Platform
+E024,Aria Gupta,aria.gupta@itcompany.com,"Python, Keras, AI",Xavier Clark,AI Services,ML Platform
+E025,Benjamin Scott,benjamin.scott@itcompany.com,"Java, Microservices, AWS",Yara Wilson,Cloud Services,AWS Platform
+E026,Chloe Harris,chloe.harris@itcompany.com,"JavaScript, Angular, Node.js",Zoe Thomas,Web Development,Frontend Platform
+E027,David King,david.king@itcompany.com,"C#, .NET Core, Azure",Alice Lee,Enterprise Solutions,Azure Platform
+E028,Ella Moore,ella.moore@itcompany.com,"Python, Django, MySQL",Bob Patel,Backend Services,Python Platform
+E029,Finn Walker,finn.walker@itcompany.com,"AWS, ECS, Docker",Clara Gupta,Cloud Services,Container Platform
+E030,Grace Allen,grace.allen@itcompany.com,"React, Redux, JavaScript",David Kim,Web Development,Frontend Platform
+E031,Henry Carter,henry.carter@itcompany.com,"SQL, Oracle, Data Warehousing",Emma Scott,Data Services,Database Platform
+E032,Isabella Young,isabella.young@itcompany.com,"C++, Linux, Firmware",Frank Wilson,Embedded Systems,IoT Platform
+E033,Jack Turner,jack.turner@itcompany.com,"Python, TensorFlow, AI",Grace Davis,AI Services,ML Platform
+E034,Kelly Green,kelly.green@itcompany.com,"Java, Spring, AWS",Henry Lee,Cloud Services,AWS Platform
+E035,Liam Scott,liam.scott@itcompany.com,"JavaScript, React, Node.js",Isabella Patel,Web Development,Frontend Platform
+E036,Mia Lopez,mia.lopez@itcompany.com,"C#, Azure, SQL Server",Jack Adams,Enterprise Solutions,Azure Platform
+E037,Noah Harris,noah.harris@itcompany.com,"Python, Flask, PostgreSQL",Kelly Brown,Backend Services,Python Platform
+E038,Olivia King,olivia.king@itcompany.com,"AWS, Terraform, Kubernetes",Liam Gupta,Cloud Services,Infrastructure Platform
+E039,Peter Young,peter.young@itcompany.com,"Vue.js, JavaScript, Node.js",Mia Clark,Web Development,Frontend Platform
+E040,Quinn Patel,quinn.patel@itcompany.com,"C#, ASP.NET, Azure",Noah Lee,Enterprise Solutions,Azure Platform
+E041,Rachel Moore,rachel.moore@itcompany.com,"Java, Spring Boot, MySQL",Olivia Wilson,Backend Services,Java Platform
+E042,Sophia Walker,sophia.walker@itcompany.com,"Python, Pandas, SQL",Peter Kim,Data Services,Analytics Platform
+E043,Thomas Allen,thomas.allen@itcompany.com,"AWS, Lambda, DynamoDB",Quinn Davis,Cloud Services,Serverless Platform
+E044,Uma Carter,uma.carter@itcompany.com,"React, TypeScript, GraphQL",Rachel Gupta,Web Development,Frontend Platform
+E045,Victor Brown,victor.brown@itcompany.com,"SQL, Snowflake, ETL",Sophia Lee,Data Services,Database Platform
+E046,Wendy Davis,wendy.davis@itcompany.com,"C++, RTOS, Linux",Thomas Patel,Embedded Systems,IoT Platform
+E047,Xavier Clark,xavier.clark@itcompany.com,"Python, Keras, AI",Uma Scott,AI Services,ML Platform
+E048,Yara Wilson,yara.wilson@itcompany.com,"Java, Microservices, AWS",Victor Adams,Cloud Services,AWS Platform
+E049,Zoe Thomas,zoe.thomas@itcompany.com,"JavaScript, Angular, Node.js",Wendy Kim,Web Development,Frontend Platform
+E050,Adam Lee,adam.lee@itcompany.com,"C#, .NET Core, Azure",Xavier Brown,Enterprise Solutions,Azure Platform
+E051,Bella Patel,bella.patel@itcompany.com,"Python, Django, MySQL",Yara Davis,Backend Services,Python Platform
+E052,Charlie Gupta,charlie.gupta@itcompany.com,"AWS, ECS, Docker",Zoe Wilson,Cloud Services,Container Platform
+E053,Diana Scott,diana.scott@itcompany.com,"React, Redux, JavaScript",Adam Clark,Web Development,Frontend Platform
+E054,Evan Kim,evan.kim@itcompany.com,"SQL, Oracle, Data Analysis",Bella Lee,Data Services,Database Platform
+E055,Fiona Young,fiona.young@itcompany.com,"C++, Linux, Firmware",Charlie Patel,Embedded Systems,IoT Platform
+E056,George Turner,george.turner@itcompany.com,"Python, TensorFlow, AI",Diana Gupta,AI Services,ML Platform
+E057,Hannah Green,hannah.green@itcompany.com,"Java, Spring, AWS",Evan Davis,Cloud Services,AWS Platform
+E058,Isaac Harris,isaac.harris@itcompany.com,"JavaScript, React, Node.js",Fiona Wilson,Web Development,Frontend Platform
+E059,Julia Lopez,julia.lopez@itcompany.com,"C#, Azure, SQL Server",George Kim,Enterprise Solutions,Azure Platform
+E060,Kevin Moore,kevin.moore@itcompany.com,"Python, Flask, PostgreSQL",Hannah Scott,Backend Services,Python Platform
+E061,Lily King,lily.king@itcompany.com,"AWS, Terraform, Kubernetes",Isaac Lee,Cloud Services,Infrastructure Platform
+E062,Matthew Young,matthew.young@itcompany.com,"Vue.js, JavaScript, Node.js",Julia Patel,Web Development,Frontend Platform
+E063,Nora Patel,nora.patel@itcompany.com,"C#, ASP.NET, Azure",Kevin Gupta,Enterprise Solutions,Azure Platform
+E064,Oscar Moore,oscar.moore@itcompany.com,"Java, Spring Boot, MySQL",Lily Davis,Backend Services,Java Platform
+E065,Piper Walker,piper.walker@itcompany.com,"Python, Pandas, SQL",Matthew Clark,Data Services,Analytics Platform
+E066,Quincy Allen,quincy.allen@itcompany.com,"AWS, Lambda, DynamoDB",Nora Wilson,Cloud Services,Serverless Platform
+E067,Rose Carter,rose.carter@itcompany.com,"React, TypeScript, GraphQL",Oscar Kim,Web Development,Frontend Platform
+E068,Samuel Brown,samuel.brown@itcompany.com,"SQL, Snowflake, ETL",Piper Lee,Data Services,Database Platform
+E069,Tara Davis,tara.davis@itcompany.com,"C++, RTOS, Linux",Quincy Patel,Embedded Systems,IoT Platform
+E070,Victor Clark,victor.clark@itcompany.com,"Python, Keras, AI",Rose Gupta,AI Services,ML Platform
+E071,Willow Wilson,willow.wilson@itcompany.com,"Java, Microservices, AWS",Samuel Scott,Cloud Services,AWS Platform
+E072,Xander Thomas,xander.thomas@itcompany.com,"JavaScript, Angular, Node.js",Tara Davis,Web Development,Frontend Platform
+E073,Yvonne lee,yvonne.lee@itcompany.com,"C#, .NET Core, Azure",Victor Kim,Enterprise Solutions,Azure Platform
+E074,Zachary Patel,zachary.patel@itcompany.com,"Python, Django, MySQL",Willow Brown,Backend Services,Python Platform
+E075,Abigail Gupta,abigail.gupta@itcompany.com,"AWS, ECS, Docker",Xander Wilson,Cloud Services,Container Platform
+E076,Ben Carter,ben.carter@itcompany.com,"React, Redux, JavaScript",Yvonne Scott,Web Development,Frontend Platform
+E077,Clara Kim,clara.kim@itcompany.com,"SQL, Oracle, Data Analysis",Zachary Lee,Data Services,Database Platform
+E078,David Young,david.young@itcompany.com,"C++, Linux, Firmware",Abigail Patel,Embedded Systems,IoT Platform
+E079,Eliza Turner,eliza.turner@itcompany.com,"Python, TensorFlow, AI",Ben Gupta,AI Services,ML Platform
+E080,Fred Green,fred.green@itcompany.com,"Java, Spring, AWS",Clara Davis,Cloud Services,AWS Platform
+E081,Gina Harris,gina.harris@itcompany.com,"JavaScript, React, Node.js",David Kim,Web Development,Frontend Platform
+E082,Harry Lopez,harry.lopez@itcompany.com,"C#, Azure, SQL Server",Eliza Wilson,Enterprise Solutions,Azure Platform
+E083,Ida Moore,ida.moore@itcompany.com,"Python, Flask, PostgreSQL",Fred Scott,Backend Services,Python Platform
+E084,Jack King,jack.king@itcompany.com,"AWS, Terraform, Kubernetes",Gina Patel,Cloud Services,Infrastructure Platform
+E085,Kate Young,kate.young@itcompany.com,"Vue.js, JavaScript, Node.js",Harry Gupta,Web Development,Frontend Platform
+E086,Leo Patel,leo.patel@itcompany.com,"C#, ASP.NET, Azure",Ida Davis,Enterprise Solutions,Azure Platform
+E087,Mia Moore,mia.moore@itcompany.com,"Java, Spring Boot, MySQL",Jack Wilson,Backend Services,Java Platform
+E088,Noah Walker,noah.walker@itcompany.com,"Python, Pandas, SQL",Kate Kim,Data Services,Analytics Platform
+E089,Olivia Allen,olivia.allen@itcompany.com,"AWS, Lambda, DynamoDB",Leo Scott,Cloud Services,Serverless Platform
+E090,Paul Carter,paul.carter@itcompany.com,"React, TypeScript, GraphQL",Mia Lee,Web Development,Frontend Platform
+E091,Quinn Brown,quinn.brown@itcompany.com,"SQL, Snowflake, ETL",Noah Patel,Data Services,Database Platform
+E092,Rose Davis,rose.davis@itcompany.com,"C++, RTOS, Linux",Olivia Gupta,Embedded Systems,IoT Platform
+E093,Sam Clark,sam.clark@itcompany.com,"Python, Keras, AI",Paul Kim,AI Services,ML Platform
+E094,Tina Wilson,tina.wilson@itcompany.com,"Java, Microservices, AWS",Quinn Davis,Cloud Services,AWS Platform
+E095,Uma Thomas,uma.thomas@itcompany.com,"JavaScript, Angular, Node.js",Rose Scott,Web Development,Frontend Platform
+E096,Victor Lee,victor.lee@itcompany.com,"C#, .NET Core, Azure",Sam Patel,Enterprise Solutions,Azure Platform
+E097,Wendy Patel,wendy.patel@itcompany.com,"Python, Django, MySQL",Tina Kim,Backend Services,Python Platform
+E098,Xavier Gupta,xavier.gupta@itcompany.com,"AWS, ECS, Docker",Uma Wilson,Cloud Services,Container Platform
+E099,Yara Scott,yara.scott@itcompany.com,"React, Redux, JavaScript",Victor Brown,Web Development,Frontend Platform
+E100,Zoe Kim,zoe.kim@itcompany.com,"SQL, Oracle, Data Analysis",Wendy Lee,Data Services,Database Platform
