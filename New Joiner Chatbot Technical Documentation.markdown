@@ -96,33 +96,25 @@ upload_to_gcs("new-joiner-docs", "insurance_policy.pdf", "policies/insurance_pol
    - Create tables for employee data, team tech stacks, and emergency contacts.
 
 ```sql
--- Creating employee_details table
-CREATE TABLE new_joiner_data.employee_details (
-  employee_id STRING,
-  name STRING,
-  email STRING,
-  role STRING,
-  location STRING,
-  insurance_plan STRING,
-  skill_set STRING,  -- Comma-separated list of skills
-  manager_id STRING, -- Manager's employee ID
-  bu STRING,        -- Business Unit
-  platform STRING   -- Platform (e.g., 'GCP', 'AWS')
+----create BQ table--------
+CREATE TABLE `project_id.dataset_id.employee_data` (
+  emp_id STRING,
+  employee_name STRING,
+  employee_mail_id STRING,
+  employee_skill_set STRING,
+  employee_manager_name STRING,
+  employee_BU STRING,
+  employee_platform_in_BU STRING
 );
 
--- Creating team_tech_stack table
-CREATE TABLE new_joiner_data.team_tech_stack (
-  team STRING,
-  tech_stack ARRAY<STRING>,
-  documentation_url STRING
-);
-
--- Creating emergency_contacts table
-CREATE TABLE new_joiner_data.emergency_contacts (
-  contact_name STRING,
-  email STRING,
-  phone STRING
-);
+----------loading to BQ from GCS------
+bq load \
+--source_format=CSV \
+--skip_leading_rows=1 \
+--allow_quoted_newlines \
+project_id.dataset_id.employee_data \
+gs://your-bucket-name/employee_data.csv \
+emp_id:STRING,employee_name:STRING,employee_mail_id:STRING,employee_skill_set:STRING,employee_manager_name:STRING,employee_BU:STRING,employee_platform_in_BU:STRING
 ```
 
 ### 3.3 Configure Dialogflow CX
