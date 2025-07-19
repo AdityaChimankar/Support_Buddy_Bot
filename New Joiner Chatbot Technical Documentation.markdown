@@ -97,7 +97,7 @@ upload_to_gcs("new-joiner-docs", "insurance_policy.pdf", "policies/insurance_pol
 
 ```sql
 ----create BQ table--------
-CREATE TABLE `project_id.dataset_id.employee_data` (
+CREATE TABLE `new-joiner-chatbot.employee_tech_stack.employee_data` (
   emp_id STRING,
   employee_name STRING,
   employee_mail_id STRING,
